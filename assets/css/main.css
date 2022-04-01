@@ -1215,12 +1215,12 @@ input[type="radio"] + label:before {
   border-radius: 0.375em;
   border: 0;
   display: inline-block;
-  position: relative; } 
-
+  position: relative; 
+ }
    .image img {
     border-radius: 8px;
     display: block;
-  } */
+  }
    .image img {
     border-radius: 0.375em;
     display: block; } 
@@ -1229,21 +1229,21 @@ input[type="radio"] + label:before {
     max-width: 40%; }
     .image.left img, .image.right img {
       width: 100%; }
-  .image.left {
+    .image.left {
     float: left;
     padding: 0 1.5em 1em 0;
     top: 0.25em; }
-  .image.right {
+    .image.right {
     float: right;
     padding: 0 0 1em 1.5em;
     top: 0.25em; }
-  .image.fit {
+    .image.fit {
     display: block;
     margin: 0 0 2em 0;
     width: 100%; }
     .image.fit img {
       width: 100%; }
-  .image.main {
+    .image.main {
     display: block;
     margin: 0 0 3em 0;
     width: 100%; }
@@ -1261,75 +1261,7 @@ input[type="radio"] + label:before {
     -moz-transform: scale(1.075);
     -webkit-transform: scale(1.075);
     -ms-transform: scale(1.075);
-    transform: scale(1.075); } 
-
-
-
-/* Image */
-
-	/*.image {
-		border-radius: 8px;
-		border: 0;
-		display: inline-block;
-		position: relative;
-	}
-
-		.image img {
-			border-radius: 50%;
-			display: block;
-		}
-
-		.image.left, .image.right {
-			max-width: 40%;
-		}
-
-			.image.left img, .image.right img {
-				width: 100%;
-			}
-
-		.image.left {
-			float: left;
-			margin: 0 1.5em 1em 0;
-			top: 0.25em;
-		}
-
-		.image.right {
-			float: right;
-			margin: 0 0 1em 1.5em;
-			top: 0.25em;
-		}
-
-		.image.fit {
-			display: block;
-			margin: 0;
-			width: 100%;
-			height: 100%;
-			
-		}
-
-			.image.fit img {
-				width: 100%;
-				height: 100%;
-			}
-
-			@media screen and (max-width: 736px) {
-
-				.image.left {
-					display: none;
-				}
-	
-			}
-
-		.image.main {
-			display: block;
-			margin: 0 0 3em 0;
-			width: 100%;
-		}
-
-			.image.main img {
-				width: 100%;
-			}*/
-
+    transform: scale(1.075);}
 
 /* List */
 ol {
@@ -2213,7 +2145,8 @@ button,
     margin: 0 0 2em 4em;
     width: 50%; }
     #banner .image img {
-      height: 100%;
+      border-radius: 50%;
+      height: 50%;
       -moz-object-fit: cover;
       -webkit-object-fit: cover;
       -ms-object-fit: cover;
@@ -2222,7 +2155,7 @@ button,
       -webkit-object-position: center;
       -ms-object-position: center;
       object-position: center;
-      width: 100%; }
+      width: 50%; }
   @media screen and (orientation: portrait) {
     #banner {
       -moz-flex-direction: column-reverse;
