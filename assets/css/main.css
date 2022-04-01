@@ -1211,28 +1211,21 @@ input[type="radio"] + label:before {
     font-family: 'Font Awesome 5 Brands'; }
 
 /* Image */
-/* .image {
-  border-radius: 8px;
-  border: 0;
-  display: inline-block;
-  position: relative;
-} */
-
-/* .image {
+ .image {
   border-radius: 0.375em;
   border: 0;
   display: inline-block;
-  position: relative; } */
+  position: relative; } 
 
-  /* .image img {
+   .image img {
     border-radius: 8px;
     display: block;
   } */
-  /* .image img {
+   .image img {
     border-radius: 0.375em;
-    display: block; } */
+    display: block; } 
     
-  /* .image.left, .image.right {
+   .image.left, .image.right {
     max-width: 40%; }
     .image.left img, .image.right img {
       width: 100%; }
@@ -1257,7 +1250,7 @@ input[type="radio"] + label:before {
     .image.main img {
       width: 100%; } */
 
-/* a.image {
+ a.image {
   overflow: hidden; }
   a.image img {
     -moz-transition: -moz-transform 0.2s ease;
@@ -1268,13 +1261,13 @@ input[type="radio"] + label:before {
     -moz-transform: scale(1.075);
     -webkit-transform: scale(1.075);
     -ms-transform: scale(1.075);
-    transform: scale(1.075); } */
+    transform: scale(1.075); } 
 
 
 
 /* Image */
 
-	.image {
+	/*.image {
 		border-radius: 8px;
 		border: 0;
 		display: inline-block;
@@ -1335,7 +1328,7 @@ input[type="radio"] + label:before {
 
 			.image.main img {
 				width: 100%;
-			}
+			}*/
 
 
 /* List */
